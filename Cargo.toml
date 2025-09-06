@@ -1,0 +1,7 @@
+[workspace]
+members = [
+  "planetedge-proxy",
+  "planetedge-control",
+  "planetedge-sdk"
+]
+resolver = "2"

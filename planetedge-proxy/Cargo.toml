@@ -1,0 +1,22 @@
+[package]
+name = "planetedge-proxy"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+[features]
+http3 = []
+
+[dependencies]
+tokio = { version = "1", features = ["rt-multi-thread", "macros"] }
+hyper = { version = "1", features = ["http1", "client", "server"] }
+http = "1"
+tower = "0.5"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["fmt", "env-filter"] }
+prometheus = "0.13"
+lazy_static = "1"
+uuid = { version = "1", features = ["v4"] }
+bytes = "1"
+planetedge-sdk = { path = "../planetedge-sdk" }
+anyhow = "1"

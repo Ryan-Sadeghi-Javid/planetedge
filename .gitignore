@@ -1,0 +1,7 @@
+/target
+**/*.log
+**/.DS_Store
+**/node_modules
+/.idea
+/.vscode
+.env
