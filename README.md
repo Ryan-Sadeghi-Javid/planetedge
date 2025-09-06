@@ -1,6 +1,6 @@
 # PlanetEdge
 
-A QUIC-ready, programmable edge reverse proxy (Rust) with a control plane and plugin runtime. This is a **starter repo** you can push today and iterate to "large-scale" over a few weeks.
+A QUIC-ready, programmable edge reverse proxy (Rust) with a control plane and plugin runtime.
 
 ## Quick demo (HTTP/1.1 path)
 - Proxies incoming requests to an origin (set `ORIGIN_URL`).
